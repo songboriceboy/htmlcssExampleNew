@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+body,h1, p, div {
+	margin:0px;
+	padding:0px;
+}
+body {
+	font-size:12px;
+	line-height:25px;
+}
+#music {
+	width:260px;
+}
+#music h1 {
+	font-size:14px;
+	text-align:center;
+	line-height:35px;
+}
+#music p {
+	text-align:right;
+	color:#6E6E6E;
+	border-bottom:1px #7F7F7F dashed;
+	line-height:28px;
+	margin-bottom:10px;
+}
+#music span {
+	display:block;
+	padding-left:5px;
+}
+#show h2{
+	color:red;
+}
+#show:hover div{
+	display:block;
+}
+#music div {
+	padding-left:5px;
+}
+
+#music .song-2{display:none;}

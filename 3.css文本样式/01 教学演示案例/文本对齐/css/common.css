@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+.p1{
+            text-align: left;
+        }
+        .p2{
+            text-align: right;
+        }
+        .p3{
+            text-align: center;
+        }

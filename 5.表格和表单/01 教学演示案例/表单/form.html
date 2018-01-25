@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        textarea{
+            vertical-align: top;
+        }
+        span{
+            display: inline-block;
+            width: 250px;
+            text-align: right;
+        }
+        h2,#btn-group{
+            margin-left: 250px;
+        }
+    </style>
+
+</head>
+<body>
+<div>
+    <h2>表单</h2>
+    <form>
+        <p>
+            <span>请选择您的性别：</span>
+            <input type="radio" name="sex" id="nan" /> <label for="nan">男</label>
+            <input type="radio" name="sex" id="nv" checked="checked" /> <label for="nv">女</label>
+        </p>
+        <p>
+            <span>请选择你的爱好：</span>
+            <input type="checkbox" name="aihao"/> 睡觉
+            <input type="checkbox" name="aihao"/> 吃饭
+            <input type="checkbox" name="aihao"/> 足球
+            <input type="checkbox" name="aihao"/> 篮球
+            <input type="checkbox" name="aihao"/> 乒乓球
+            <input type="checkbox" name="aihao"/> 打豆豆
+        </p>
+        <p>
+            <span>请选择您的家乡：</span>
+            <select>
+                <option>北京</option>
+                <option>河北</option>
+                <option>河南</option>
+                <option>山东</option>
+                <option>山西</option>
+                <option>湖北</option>
+                <option>安徽</option>
+            </select>
+        </p>
+
+        <p>
+            <span>请输入您的账户名：</span>
+            <input type="text" value="" />
+        </p>
+        <p>
+            <span>请输入您的密码：</span>
+            <input type="password" />
+        </p>
+        <p>
+            <span>请输入您的建议和要求：</span>
+                <textarea cols="30" rows="10"></textarea>
+        </p>
+        <p id="btn-group">
+            <input type="button" value="登录" />
+            <input type="submit" />
+            <input type="reset" />
+        </p>
+
+    </form>
+</div>
+</body>
+</html>
+</body>
+</html>

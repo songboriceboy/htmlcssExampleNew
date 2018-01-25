@@ -1,0 +1,11 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.p1{
+            font-style: normal;
+        }
+        .p2{
+            font-style: italic;
+        }
+        .p3{
+            font-style: oblique;
+        }

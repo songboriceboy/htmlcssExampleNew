@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>制作单项商品购买</title>
+    <style>
+        div,img,ul,li{
+            margin:0px;
+            padding:0px;
+        }
+        .wrap{
+            width: 322px;
+            height: 322px;
+        }
+        .con{
+            width: 320px;
+            height: 320px;
+            z-index: -100;
+        }
+        .keep{
+            width: 320px;
+            height: 320px;
+            position: relative;
+            top:-321px;
+            background-color: #AAAAAA;
+            opacity: 0.6;
+            z-index: 0;
+            display: none;
+        }
+        .btns{
+            position: relative;
+            list-style: none;
+            top:-590px;
+            left: 56px;
+            z-index: 100;
+            display: none;
+        }
+        .btns li{
+            background-color: yellow;
+            width: 200px;
+            height: 60px;
+            margin:10px 0px;
+            line-height: 60px;
+            text-align: center;
+        }
+        .wrap:hover .keep,.btns{
+            display: block;
+        }
+        .btns li:hover{
+            border:1px solid gray;
+        }
+    </style>
+</head>
+<body>
+<div class="wrap">
+    <div class="con">
+        <img src="../img/pic1.jpg">
+    </div>
+    <div class="keep">
+
+    </div>
+    <ul class="btns">
+            <li>立即购买</li>
+            <li>加入购物车</li>
+            <li>收藏</li>
+    </ul>
+</div>
+</body>
+</html>

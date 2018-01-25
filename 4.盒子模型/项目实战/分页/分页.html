@@ -1,0 +1,67 @@
+<!DOCTYPE html><html><head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style type="text/css">
+        /*默认样式重置(css reset)*/
+        body,p,h1,h2,h3,h4,h5,h6,dl,dd{
+            margin: 0;
+            font-size: 12px;
+        }
+        ol,ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        a {
+            text-decoration: none;
+        }
+        img {
+            border: none;
+        }
+        .pages {
+            width: 600px;
+            height: 60px;
+
+            line-height:60px;
+            background: #e8e8e8;
+            margin: 90px auto;
+            text-align: center;
+        }
+        .pages a {
+            background: #fff;
+            border: 1px solid #cdcdcd;
+            color: #333333;
+            padding: 0 8px 0 9px;
+            /*height: 28px;*/
+            line-height: 28px;/* line-height的值跟height的值一样，字体就会垂直居中 */
+            display: inline-block;
+        }
+        .pages a:hover {
+            border-color: red;
+            color: red;
+        }
+        .pages .activied {
+            font-weight: bold;
+            background: #fcf9ea;
+            cursor: text;
+        }
+        .pages .activied:hover {
+            border-color: #cdcdcd;
+            color: #333333;
+        }
+    </style></head><body>
+<div class="pages">
+    <a href="#">上一页</a>
+    <a href="#" class="activied">1</a>
+    <a href="#">2</a>
+    <a href="#">3</a>
+    <a href="#">4</a>
+    <a href="#">5</a>
+    <a href="#">6</a>
+    <a href="#">7</a>
+    <a href="#">8</a>
+    <a href="#">9</a>
+    <a href="#">10</a>
+    <a href="#">...87</a>
+    <a href="#">下一页</a>
+</div></body></html>

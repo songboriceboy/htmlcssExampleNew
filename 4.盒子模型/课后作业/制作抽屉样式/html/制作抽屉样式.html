@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>制作抽屉样式</title>
+    <style>
+        ul,a{
+            padding:0px;
+            margin: 0px;
+            text-decoration: none;
+        }
+        .con{
+            width: 208px;
+            border:2px solid red;
+        }
+        .con ul li{
+            list-style: none;
+            line-height: 36px;
+            font-size: 14px;
+            border-bottom: 1px dashed gray;
+            text-indent: 1em;
+        }
+        .con ul li .title{
+            color: #000;
+        }
+        .con ul li .hi{
+            display: none;
+        }
+        .con ul li:hover .hi{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="con">
+        <ul>
+            <li>
+                <a href="#" class="title">图书、音像、数字商品</a>
+                <div class="hi">
+                    <a href="#">电子书</a><a href="#">数字音乐</a><a href="#">音像</a>
+                    <a href="#">文艺</a><a href="#">人文社科</a><a href="#">经管励志</a>
+                    <a href="#">生活</a><a href="#">科技</a><a href="#">教育</a>
+                </div>
+            </li>
+            <li>
+                <a href="#" class="title">家用电器</a>
+                <div class="hi">
+                    <a href="#">电子书</a><a href="#">数字音乐</a><a href="#">音像</a>
+                    <a href="#">文艺</a><a href="#">人文社科</a><a href="#">经管励志</a>
+                    <a href="#">生活</a><a href="#">科技</a><a href="#">教育</a>
+                </div>
+            </li>
+            <li>
+                <a href="#" class="title">手机、数码</a>
+                <div class="hi">
+                    <a href="#">电子书</a><a href="#">数字音乐</a><a href="#">音像</a>
+                    <a href="#">文艺</a><a href="#">人文社科</a><a href="#">经管励志</a>
+                    <a href="#">生活</a><a href="#">科技</a><a href="#">教育</a>
+                </div>
+            </li>
+            <li>
+                <a href="#" class="title">电脑、办公</a>
+                <div class="hi">
+                    <a href="#">电子书</a><a href="#">数字音乐</a><a href="#">音像</a>
+                    <a href="#">文艺</a><a href="#">人文社科</a><a href="#">经管励志</a>
+                    <a href="#">生活</a><a href="#">科技</a><a href="#">教育</a>
+                </div>
+            </li>
+            <li><a href="#" class="title">家居、家具、家装、厨具</a></li>
+            <li><a href="#" class="title">服饰内衣、珠宝首饰</a></li>
+            <li><a href="#" class="title">个护化妆</a></li>
+            <li><a href="#" class="title">鞋靴、箱包、钟表、奢侈品</a></li>
+            <li><a href="#" class="title">运动户外</a></li>
+            <li><a href="#" class="title">汽车用品</a></li>
+        </ul>
+    </div>
+</body>
+</html>

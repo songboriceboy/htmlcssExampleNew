@@ -1,0 +1,20 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.p1{
+            font-weight: normal;
+        }
+        .p2{
+            font-weight: bold;
+        }
+        .p3{
+            font-weight: bolder;
+        }
+        .p4{
+            font-weight: lighter;
+        }
+        .p5{
+            font-weight: 400;
+        }
+        .p6{
+            font-weight: 700;
+        }

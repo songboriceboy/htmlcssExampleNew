@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>制作个人信息</title>
+	<style type="text/css">
+		caption{
+			height: 80px;
+			line-height: 80px;
+			text-align: left;
+			border-bottom: 1px solid red;
+		}
+		thead th{
+			height: 40px;
+			line-height: 40px;
+			text-align: left;
+		}
+		.td1{
+			width: 200px;
+		}
+		.year,.mon{
+			width: 50px;
+		}
+		tr{
+			height: 30px;
+			line-height: 30px;
+		}
+		.btn{
+			width: 80px;
+			height: 40px;
+			color: white;
+			font-size: 16px;
+			background-color: blue;
+		}
+	</style>
+</head>
+<body>
+<table>
+	<caption><h2>个人信息</h2></caption>
+	<thead><th colspan="2">修改个人信息(*为必填项)</th></thead>
+	<tbody>
+		<tr>
+			<td class="td1">*姓名</td>
+			<td><input type="text"></td>
+		</tr>
+		<tr>
+			<td class="td1">*性别</td>
+			<td><input type="radio" id="gender">男<input type="radio" id="gender">女</td>
+		</tr>
+		<tr>
+			<td class="td1">*出生日期</td>
+			<td><input type="text" class="year">年<input type="text" class="mon">月</td>
+		</tr>
+		<tr>
+			<td class="td1">*参加工作年份</td>
+			<td>
+				<select style="width: 173px;">
+					<option>无工作经验</option>
+					<option>2005或更早</option>
+					<option>2006</option>
+					<option>2007</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td class="td1">*户口所在地</td>
+			<td>
+				<select style="width: 173px;">
+					<option>沈阳</option>
+					<option>天津</option>
+					<option>大连</option>
+					<option>上海</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td class="td1">*现居住城市</td>
+			<td>
+				<select style="width: 173px;">
+					<option>沈阳</option>
+					<option>天津</option>
+					<option>大连</option>
+					<option>上海</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td class="td1">*联系方式</td>
+			<td><input type="text"><a href="">修改</a></td>
+		</tr>
+		<tr>
+			<td class="td1">*电子邮箱</td>
+			<td><input type="text"><a href="">修改</a></td>
+		</tr>
+		<tr>
+			<td class="td1">婚姻状况</td>
+			<td>
+				<input type="radio" id="mary">未婚
+				<input type="radio" id="mary">已婚
+				<input type="radio" id="mary">离异
+			</td>
+		</tr>
+		<tr>
+			<td class="td1">国籍</td>
+			<td>
+				<select style="width: 173px;">
+					<option >中国大陆</option>
+					<option >日本</option>
+					<option >韩国</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td class="td1">海外工作/学习经历</td>
+			<td>
+				<input type="radio" id="work">有
+				<input type="radio" id="work">无
+			</td>
+		</tr>
+		<tr>
+			<td class="td1">政治面貌</td>
+			<td>
+				<input type="radio" id="zzmm">中共党员(含预备党员)
+				<input type="radio" id="zzmm">团员
+				<input type="radio" id="zzmm">群众
+				<input type="radio" id="zzmm">民主党派
+				<input type="radio" id="zzmm">无党派人士
+				
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: right;"><input type="submit" class="btn" value="保存"></td>
+			<td><a href="">返回</a></td>
+		</tr>
+	</tbody>
+</table>
+</body>
+</html>

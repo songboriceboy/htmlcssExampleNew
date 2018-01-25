@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>制作商品列表</title>
+    <style>
+        ul,li,a,h1{
+            margin:0px;
+            padding:0px;
+
+        }
+        img {
+            border:0px;
+        }
+        ul, li {
+            list-style:none;
+        }
+        .con {
+            margin:0px auto;
+            width:410px;
+            height:540px;
+            background-color:#ced4db;
+        }
+        .goodsList {
+            padding:10px 0px 0px 10px;
+        }
+        .goodsList li {
+            float:left;
+            width:184px;
+            height:260px;
+            margin:0px 5px;
+        }
+        .goodsList li a img {
+            border:2px #ffffff solid;
+        }
+        .goodsList li a:hover img {
+            border:2px #f08609 solid;
+        }
+        .goodsList h1 {
+            font-size:12px;
+            padding-left:10px;
+            line-height:25px;
+        }
+        .goodsList span{
+            font-size: 14px;
+            margin-left: 10px;
+        }
+        .goodsList .old{
+            text-decoration: line-through;
+        }
+        .goodsList .new{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<div class="con">
+    <ul class="goodsList">
+        <li><a href="#"><img src="../img/goods1.jpg"/></a>
+            <h1>新年狂欢，剁手新装备</h1>
+            <span class="old">&yen;100</span><span class="new">&yen;1</span>
+        </li>
+        <li><a href="#"><img src="../img/goods2.jpg"/></a>
+            <h1>全球过新年，欢购大趴</h1>
+            <span class="old">&yen;100</span><span class="new">&yen;1</span>
+        </li>
+        <li><a href="#"><img src="../img/goods3.jpg"/></a>
+            <h1>美的&宝洁，干净吃大餐</h1>
+            <span class="old">&yen;100</span><span class="new">&yen;1</span>
+        </li>
+        <li><a href="#"><img src="../img/goods4.jpg"/></a>
+            <h1>取暖电器，裸价到底</h1>
+            <span class="old">&yen;100</span><span class="new">&yen;1</span>
+        </li>
+    </ul>
+</div>
+
+</body>
+</html>
